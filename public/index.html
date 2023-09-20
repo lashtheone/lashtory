@@ -1,17 +1,126 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LashCraft服务器 - 沉浸生存服 丨 Minecraft服务器</title>
+    <meta name="description" content="这是一个沉浸生存的和谐养老服，欢迎各位生存党玩家的入驻~">
+    <meta name="keywords" content="我的世界服务器,Minecraft服务器,Minecraft">
+    <link rel="stylesheet" type="text/css" href="static/css/nutscraft.css">
+    <link rel="stylesheet" type="text/css" href="static/css/font.css">
+    <link rel="stylesheet" type="text/css" href="static/css/viewer.min.css">
+    <link rel="icon" href="https://n0ts.gitee.io/cdn/nutscraft/favicon.ico">
+</head>
+
+<body>
+    <!-- 首页标题 -->
+    <div class="nutscraftBox Box1">
+        <div class="wow Box1-title">
+            <p class="wow Box1-title1">Hello Minecraft.</p>
+            <p class="wow Box1-title2">欢迎来到LashCraft的主页</p>
+            <a href="#anchor1" scrollto="anchor1" class="wow scrollOnClick Box1-title-Buttom" easing="smooth">More...</a>
+        </div>
+    </div>
+
+    <!-- 特色介绍 -->
+    <div class="nutscraftBox Box2">
+        <div id="anchor1"></div>
+        <div class="Box2-nutscraft">
+            <ul>
+                <li class="wow OutRight">
+                    <img src="static/picture/server.png" alt="server">
+                    <h2>流畅体验</h2>
+                    <p>本服务器是每个月26.8元的4核8G服务器，拥有32M带宽，足以容纳现有玩家，注重玩家游戏体验</p>
+                </li>
+                <li class="wow OutTop">
+                    <img src="static/picture/friend.png" alt="server">
+                    <h2>环境温馨</h2>
+                    <p>本服为友好的小型公益服，本服你的财产不受保护，别让腐竹知道你家的坐标</p>
+                </li>
+                <li class="wow OutTop">
+                    <img src="static/picture/nan.png" alt="server">
+                    <h2>公平公正</h2>
+                    <p>本服为亲友服，无需赞助，任何玩家都是平等的，让玩家享受最公平的游戏环境，并且本服实施白名单制度，有效防止熊孩子出现</p>
+                </li>
+                <li class="wow OutLeft">
+                    <img src="static/picture/backup.png" alt="server">
+                    <h2>数据危险</h2>
+                    <p>服务器每星期都由腐竹手动备份，并且无安装回档插件，只能祈求上天保佑</p>
+                </li>
+            </ul>
+            <a href="#anchor2" scrollto="anchor2" class="scrollOnClick Box2-More wow" easing="smooth">Next...</a>
+        </div>
+    </div>
+
+
+    <!-- 一些话 -->
+    <div class="nutscraftBox Box3">
+        <div id="anchor2"></div>
+        <div class="Box3-talk OutBottom wow">
+            <div class="Box3-talk-text">
+                <h1><del style="color: red;"><span style="color: black;">无敌</span></del>服主的一些话</h1>
+                <p>服务器起步于2023年7月27日，服内大神云集，群英荟萃。</p>
+                <p>希望大家在服务器里享受游戏，在现实里享受生活</p>
+                <p>感谢大家的陪伴~</p>
+                <h2 class="Box3-talk-text-end">么么哒= =</h2>
+            </div>
+        </div>
+        <a href="#anchor3" scrollto="anchor3" class="scrollOnClick Box3-More wow" easing="smooth">Next...</a>
+    </div>
+
+    <!-- 风景展示 -->
+    <div class="nutscraftBox Box4">
+        <div id="anchor3"></div>
+        <p class="Box4-Title OutBottom wow">风景一览</p>
+        <ul id="nutscraft">
+            <li>
+                <img src="static/picture/player1.jpg" alt="player1" class="OutTop wow">
+            </li>
+            <li>
+                <img src="static/picture/player2.jpg" alt="player2" class="OutBottom wow">
+            </li>
+            <li>
+                <img src="static/picture/player3.jpg" alt="player3" class="OutLeft wow">
+            </li>
+            <li>
+                <img src="static/picture/player4.jpg" alt="player4" class="OutRight wow">
+            </li>
+            <li>
+                <img src="static/picture/player5.jpg" alt="player5" class="OutTop wow">
+            </li>
+            <li>
+                <img src="static/picture/player6.jpg" alt="player6" class="OutBottom wow">
+            </li>
+        </ul>
+        <a href="#anchor4" scrollto="anchor4" class="scrollOnClick Box4-More wow" easing="smooth">Next...</a>
+    </div>
+
+    <!-- 加入我们 -->
+    <div class="nutscraftBox Box5">
+        <div id="anchor4"></div>
+        <div class="Box5-Join OutBottom wow">
+            <div class="Box5-Join-talk">
+                <h1>加入我们？</h1>
+                <p>加入我们一起打造属于我们的世界！</p>
+                <ul>
+                    <li><a href="javascript:;">QQ群632811189</a></li>
+                    <li><a href="javascript:;">客户端请到qq群内下载</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 页脚 -->
+        <div class="footer">
+            <p>&copy; 2023 - 20XX <a href="javascript:;">LashCraft服务器官网</a></p>
+            <p><a href="https://beian.miit.gov.cn" rel="nofollow" target="_blank">粤ICP备2023094258号</a></p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="static/js/time.js"></script>
+    <script type="text/javascript" src="static/js/smoothScroll-ES5.js"></script>
+    <script src="static/js/jquery.js"></script>
+    <script type="text/javascript" src="static/js/wow.min.js"></script>
+    <script type="text/javascript" src="static/js/viewer.min.js" ></script>
+</body>
+
 </html>
